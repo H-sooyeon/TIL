@@ -9,7 +9,8 @@
 
 [IP 헤더의 구조]
 
-![Untitled](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F8f34238a-246a-4ffd-8d8a-f3a45a9148ed%2F9091738b-892f-4cb1-9f4d-e2648da839bc%2FUntitled.png?table=block&id=f69c45a8-9813-485b-934a-a5055275cbc8&spaceId=8f34238a-246a-4ffd-8d8a-f3a45a9148ed&width=2000&userId=1b419ea2-181a-44f5-8d9f-c80b349fd635&cache=v2)
+![image](https://github.com/H-sooyeon/TIL/assets/56586470/9060c500-35ab-4520-85f8-f620544e45bd)
+
 
 상단의 숫자는 비트 수이다.
 
@@ -27,14 +28,16 @@ DS를 사용하기 위해 사전에 서비스 제공자와 서비스 이용자 �
 
 ### 주소 관련 필드
 
-![Untitled](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F8f34238a-246a-4ffd-8d8a-f3a45a9148ed%2F357c8291-c8cb-4cad-a86b-df7db7e94ade%2FUntitled.png?table=block&id=4a6d9677-9af2-440e-b72b-326285f97ec9&spaceId=8f34238a-246a-4ffd-8d8a-f3a45a9148ed&width=2000&userId=1b419ea2-181a-44f5-8d9f-c80b349fd635&cache=v2)
+![image](https://github.com/H-sooyeon/TIL/assets/56586470/e3dc4651-926b-4828-83a9-1e4bbae3912e)
+
 
 - `network(네트워크)`
   네트워크 주소이다.
 - `host(호스트)`
   네트워크 주소가 결정되면 하위의 호스트 주소를 의미하는 host 비트 값을 개별 네트워크의 관리자가 할당한다.
 
-![Untitled](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F8f34238a-246a-4ffd-8d8a-f3a45a9148ed%2F9091738b-892f-4cb1-9f4d-e2648da839bc%2FUntitled.png?table=block&id=a439edaa-046f-4e8d-adb6-94968e260ffe&spaceId=8f34238a-246a-4ffd-8d8a-f3a45a9148ed&width=2000&userId=1b419ea2-181a-44f5-8d9f-c80b349fd635&cache=v2)
+![image](https://github.com/H-sooyeon/TIL/assets/56586470/b7e89c56-0501-4887-a6e1-c6ab6df8664f)
+
 
 - `Version Number(버전 번호)`
   IP 프로토콜의 버전 번호이다.
@@ -48,7 +51,8 @@ DS를 사용하기 위해 사전에 서비스 제공자와 서비스 이용자 �
 - `Transport(전송 프로토콜)`
   IP 프로토콜에 데이터 전송을 요구한 전송 계층의 프로토콜을 가리킨다.
 
-![Untitled](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F8f34238a-246a-4ffd-8d8a-f3a45a9148ed%2F069db044-3c54-4966-b0c4-52b7078c01d7%2FUntitled.png?table=block&id=ce5095a8-e20d-43cf-a367-6d228581bbb2&spaceId=8f34238a-246a-4ffd-8d8a-f3a45a9148ed&width=2000&userId=1b419ea2-181a-44f5-8d9f-c80b349fd635&cache=v2)
+![image](https://github.com/H-sooyeon/TIL/assets/56586470/5c7e4604-e6b8-4bb5-a46a-a3a201b4bee5)
+
 
 - `Header Checksum(헤더 체크섬)`
   전송 과정에서 발생할 수 있는 헤더 오류를 검출하는 기능이다.
