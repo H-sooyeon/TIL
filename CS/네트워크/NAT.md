@@ -6,7 +6,8 @@
 
 주로 기업이나 기관에서 내부망을 사용하는 PC에 사설 IP를 제공하고 외부 인터넷에 연결 시엔 공인 IP 하나를 같이 사용하는 형태로 운영한다. `NAT`은 다수의 주소 변환 정보에 대해 IP 주소와 Port 번호로 구성된 `NAT Forwarding Table`을 보관하고 있고 이에 맞게 주소 변환 서비스를 제공한다.
 
-![Alt text](image.png)
+![image](https://github.com/H-sooyeon/TIL/assets/56586470/2bea5b83-dca3-4204-a8d6-06474e425781)
+
 
 위 그림에서 NAT Table을 잘 살펴보면 다음의 특징이 있다.
 
